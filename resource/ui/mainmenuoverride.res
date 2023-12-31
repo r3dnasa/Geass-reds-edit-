@@ -103,20 +103,61 @@
 			}
 		}
 	}
-	
-	"CustomBG"
+	"rankpanel"	//pls go away and never come back
 	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"CustomBG"
+	"tall"	"0"
+	"wide"	"0"
+	"xpos"	"9999"
+	"ypos"	"9999"
+	"zpos"	"-9999"
+	"visible"	"0"
+	"enabled"	"0"
+	
+			"pin_to_sibling" 			"CPCapMask"
+			"pin_corner_to_sibling"		"PIN_TOPLEFT"
+			"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+	}
+	"rankmodelpanel"	//AAAAAAA
+	{
+	"tall"	"0"
+	"wide"	"0"
+	"xpos"	"9999"
+	"ypos"	"9999"
+	"zpos"	"-9999"
+	"visible"	"0"
+	"enabled"	"0"
+	
+			"pin_to_sibling" 			"CPCapMask"
+			"pin_corner_to_sibling"		"PIN_TOPLEFT"
+			"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+	}
+
+	"custombg"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"custombg"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"1"
 		"wide"										"f0"
-		"tall"										"480"
-		"visible"									"1"
+		"tall"										"f0"
+		"visible"									"0"
 		"enabled"									"1"
-		"image"										"replay/thumbnails/menu/menu_background"
-		"scaleimage"								"1"
+
+		"custombgimage"
+		{
+			"ControlName"							"ImagePanel"
+			"fieldName"								"custombgimage"
+			"xpos"									"0"
+			"ypos"									"0"
+			"zpos"									"1"
+			"wide"									"f0"
+			"tall"									"480"
+			"visible"								"1"
+			"enabled"								"1"
+			"image"									"replay/thumbnails/menu/menu_background"
+			"scaleimage"							"1"
+		}
 	}
 	
 	"MainMenuAnchor"

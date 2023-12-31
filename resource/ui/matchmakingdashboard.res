@@ -84,7 +84,7 @@
 
 			"matchgroup"	"MatchGroup_Casual_12v12"
 
-			"show_model"	"1"
+			"show_model"	"0"
 			"show_type"		"1"
 			
 			"pin_to_sibling" 			"PartySlot0"

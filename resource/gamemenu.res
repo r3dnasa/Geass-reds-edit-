@@ -1,5 +1,10 @@
 "GameMenu"
 {
+	"custombg"
+	{
+		"command" 									"engine"
+		"OnlyAtMenu"								"1"
+	}
 	"Servers"
 	{
 		"label" 									"u"
