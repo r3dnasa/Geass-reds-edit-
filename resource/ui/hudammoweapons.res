@@ -60,7 +60,7 @@
 		"font"										"Product20Bold"	//m0refont24
 		"fgcolor"									"Ammo In Reserve"
 		"xpos"										"1"	//0
-		"ypos"										"0"	//-4
+		"ypos"										"-6"	//-4, 0
 		"zpos"										"7"
 		"wide"										"150"
 		"tall"										"80"

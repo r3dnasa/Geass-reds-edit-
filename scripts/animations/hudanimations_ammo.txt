@@ -51,13 +51,23 @@ event HudLowAmmoPulse
 
 	Animate AmmoInReserve							FgColor 	"glitchhurt1"							Linear 	0.0 	0.0
 	Animate AmmoInReserve 							xpos		"-1"									Linear 	0.05	0.0
-	Animate AmmoInReserve 							ypos		"-1"									Linear 	0.05	0.0
+	Animate AmmoInReserve 							ypos		"-7"									Linear 	0.05	0.0
+//	this is for old ammo v
+//	Animate AmmoInReserve 							ypos		"-1"									Linear 	0.05	0.0
+
 	Animate AmmoInReserve 							xpos		"2"										Linear 	0.1		0.0
-	Animate AmmoInReserve 							ypos		"-2"									Linear 	0.1		0.0
+	Animate AmmoInReserve 							ypos		"-8"									Linear 	0.1		0.0
+//	this is for old ammo v
+//	Animate AmmoInReserve 							ypos		"-2"									Linear 	0.1		0.0
+
 	Animate AmmoInReserve 							xpos		"1"										Linear 	0.15	0.0
-	Animate AmmoInReserve							ypos		"0"										Linear 	0.15	0.0
+	Animate AmmoInReserve							ypos		"-6"										Linear 	0.15	0.0
+//	this is for old ammo v
+//	Animate AmmoInReserve							ypos		"0"										Linear 	0.15	0.0
 	Animate AmmoInReserve 							xpos		"-2"									Linear 	0.2		0.0
-	Animate AmmoInReserve 							ypos		"2"										Linear 	0.2		0.0	
+	Animate AmmoInReserve 							ypos		"-4"										Linear 	0.2		0.0	
+//	this is for old ammo v	
+//	Animate AmmoInReserve 							ypos		"2"										Linear 	0.2		0.0	
 
 
 	Animate AmmoNoClipShadow			 			FgColor 	"glitchhurt2" 							Linear 	0.05 	0.0
@@ -131,7 +141,10 @@ event HudLowAmmoPulseStop
 	Animate AmmoInClip								xpos		"0"									Aceel 	0.0		0.0	
 	Animate AmmoInReserve	 						xpos 		"1" 								Accel 	0.0 	0.0
 //	Animate AmmoInReserve	 						xpos 		"0" 								Accel 	0.0 	0.0
-	Animate AmmoInReserve							ypos 		"0" 								Accel 	0.0 	0.0
+	Animate AmmoInReserve							ypos 		"-6" 								Accel 	0.0 	0.0
+//	this is for old ammo	
+//	Animate AmmoInReserve							ypos 		"0" 								Accel 	0.0 	0.0
+	
 //	Animate AmmoInReserve							ypos 		"-4" 								Accel 	0.0 	0.0
 	Animate AmmoNoClip		 						xpos 		"0" 								Accel 	0.0 	0.0
 	Animate AmmoNoClip		 						ypos 		"0" 								Accel 	0.0 	0.0
