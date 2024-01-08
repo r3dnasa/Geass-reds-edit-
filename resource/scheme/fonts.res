@@ -909,7 +909,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"SurfaceHPAmmo-Medium"
+				"name"										"Surface Sharpened Medium"
 				"tall"										"28"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -920,7 +920,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"SurfaceHPAmmo-Medium"
+				"name"										"Surface Sharpened Medium"
 				"tall"										"72"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -971,6 +971,17 @@ Scheme
 				"outline"									"0"
 			}
 		}
+		surface14outline	//critdam
+		{
+			"1"
+			{
+				"name"		"Surface-Medium"
+				"tall"		"14"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
 		surface15
 		{
 			"1"
@@ -980,6 +991,17 @@ Scheme
 				"additive"									"0"
 				"antialias" 								"1"
 				"outline"									"0"
+			}
+		}
+		surface18outline	//damage
+		{
+			"1"
+			{
+				"name"		"Surface-Medium"
+				"tall"		"18"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"	"1"
 			}
 		}
 		surface20
@@ -1002,6 +1024,29 @@ Scheme
 				"additive"									"0"
 				"antialias" 								"1"
 				"outline"									"0"
+			}
+		}
+		surface28
+		{
+			"1"
+			{
+				"name"		"Surface-Medium"
+				"tall"		"28"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
+		surface28shadow
+		{
+			"1"
+			{
+				"name"		"Surface-Medium"
+				"tall"		"28"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+				"dropshadow"	"1"
 			}
 		}
 		surfaceNumbers14
@@ -4636,6 +4681,11 @@ Scheme
 		{
 			"font" 		"resource/fonts/SurfaceNumbers-Sharpened.otf"
 			"name" 		"SurfaceNumbers-Sharpened"
+		}
+		"12"
+		{
+			"font" 		"resource/fonts/Surface-Sharpened-Old.ttf"
+			"name"		"Surface Sharpened Medium"
 		}
 	}
 }

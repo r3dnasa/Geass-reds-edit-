@@ -43,8 +43,8 @@
 		if_mvm
 		{
 			"xpos"			"c145"
-			"ypos"			"r225"
-			"tall"			"110"
+			"ypos"			"r235"
+			"tall"			"130"
 			"visible"	"1"
 			"wide"	"250"
 		}
@@ -70,108 +70,6 @@
 			"visible"			"0"
 		}
 	}
-	"MvMBGTopLeft"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"MvMBGTopLeft"
-		"xpos"			"c-405"
-		"ypos"			"r383"
-		"zpos"			"-1"
-		"wide"			"512"
-		"tall"			"19"
-		"fillcolor"		"MvMBG2"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-
-		if_mvm
-		{
-			"visible"			"1"
-		}
-	}
-	"MvMBGBottomRight"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"MvMBGBottomRight"
-		"xpos"			"c111"
-		"ypos"			"371"
-		"zpos"			"-1"
-		"wide"			"185"
-		"tall"			"19"
-		"fillcolor"		"MvMBG"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-
-		if_mvm
-		{
-			"visible"			"1"
-		}
-	}
-	
-	"MvMBGBottomLeft"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"MvMBGTopLeft"
-		"xpos"			"c-405"
-		"ypos"			"371"
-		"zpos"			"-1"
-		"wide"			"512"
-		"tall"			"19"
-		"fillcolor"		"MvMBG2"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-
-		if_mvm
-		{
-			"visible"			"1"
-		}
-	}
-	"MvMBGTopRight"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"MvMBGTopRight"
-		"xpos"			"c111"
-		"ypos"			"r383"
-		"zpos"			"-1"
-		"wide"			"185"
-		"tall"			"19"
-		"fillcolor"		"MvMBG"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-
-		if_mvm
-		{
-			"visible"			"1"
-		}
-	}
-	"MvMBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"MvMBG"
-		"xpos"			"c111"
-		"ypos"			"r360"
-		"zpos"			"-1"
-		"wide"			"185"
-		"tall"			"169"
-		"fillcolor"		"HudBG"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-
-		if_mvm
-		{
-			"visible"			"1"
-		}
-	}
-
 	"BlueTeamLabelBG"
 	{
 		"ControlName"		"ImagePanel"
@@ -507,7 +405,16 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
-	}	
+		
+		if_mvm
+		{
+			"pin_to_sibling"	"LocalPlayerStatsPanel"
+			"xpos"	"-90"
+			"ypos"	"-100"
+			"textAlignment"	"west"
+		}
+		
+	}
 	"SpectatorsInQueue"
 	{
 		"ControlName"	"CExLabel"
@@ -524,7 +431,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
-	}				
+	}
 	"ShadedBar" 
 	{
 		"ControlName"	"ImagePanel"

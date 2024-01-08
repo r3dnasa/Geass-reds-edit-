@@ -68,6 +68,23 @@
 		"pin_corner_to_sibling"		"PIN_CENTER_BOTTOM"
 		"pin_to_sibling_corner"		"PIN_CENTER_TOP"
 	}
+	"RedBar2"
+	{
+		"ControlName"				"EditablePanel"
+		"fieldName"					"RedBar2"
+		"xpos"						"c-30"
+		"ypos"						"-13"
+		"zpos"						"0"
+		"wide"						"255"
+		"tall"						"36"
+		"visible"					"1"
+		"enabled"					"1"
+		"border"					"RedTransparent70"
+		
+		"pin_to_sibling"			"MvMPlayerList"
+		"pin_corner_to_sibling"		"PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner"		"PIN_CENTER_TOP"
+	}
 	
 	"StatsSeparator"
 	{
